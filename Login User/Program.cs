@@ -173,7 +173,7 @@ namespace ConsoleApp2
         {
             Console.ForegroundColor = ConsoleColor.White;
             Login list = new Login();
-           
+            Console.WriteLine("Do you want to register ? Yes select [2] ,No select [1]");
             int selection = Convert.ToInt32(Console.ReadLine());
             if (selection == 2)
             {
