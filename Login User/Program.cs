@@ -177,7 +177,7 @@ namespace ConsoleApp2
             int selection = Convert.ToInt32(Console.ReadLine());
             if (selection == 2)
             {
-                User person = new User();
+               
                 person.create();
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Person passed registration successfully");
